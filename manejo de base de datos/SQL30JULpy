@@ -1,0 +1,16 @@
+import sqlite3
+
+conn = sqlite3.connect("test30jul.db")
+cursor=conn.cursor()
+
+#cursor.execute("Insert into clientes values (130,'Maria','Alabama','2025-07-30','Premium')")
+#cursor.execute("Select * from clientes")
+#cursor.execute("Select * from clientes where categoria = 'Standard'")
+#cursor.execute("select * from clientes join pedidos on clientes.cliente_id=pedidos.cliente_id where categoria='Premium' and estado='Entregado'")
+#conn.commit()
+cursor.execute("Select * from pedidos")
+rows = cursor.fetchall()
+
+for row in rows:
+    print (row)
+

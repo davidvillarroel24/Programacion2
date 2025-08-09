@@ -1,0 +1,4 @@
+https://colab.research.google.com/drive/1C6Ppd_1rsTB1rfOcvXACelony2eIfGTO?usp=sharing
+
+
+https://matplotlib.org/stable/gallery/lines_bars_and_markers/bar_colors.html#sphx-glr-gallery-lines-bars-and-markers-bar-colors-py
